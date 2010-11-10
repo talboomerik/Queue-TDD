@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a96ad1ba-d7d5-4ae7-9463-828cc47c2389" name="talbaer@EXSL78007 2010-11-08 16:57:50" runUser="ICONOS\talbaer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="efabca74-4cef-4eff-90d1-fc170b2b93fe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="talbaer_EXSL78007 2010-11-08 16_57_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-08T16:57:50.7091345+01:00" queuing="2010-11-08T16:57:50.7701380+01:00" start="2010-11-08T16:57:50.7831387+01:00" finish="2010-11-08T16:57:51.6091860+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="10" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="7a2cc7d0-9e4a-2aec-8855-f17571804236">
+      <Execution id="6b95c211-5557-4f6e-a7f8-001001cfda42" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItem_DequeueShouldReturnTheItem" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="3083bc32-b243-52cb-86ac-afa7d1f702c6">
+      <Execution id="c847d031-2498-4dc8-90d0-d38381881b65" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItem_DequeueShouldReturnTheItem" />
+    </UnitTest>
+    <UnitTest name="NewQueueShouldBeAbleToEnqueueItems" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="1b89d63c-02df-85c6-6cb4-2bf505946bc5">
+      <Execution id="deaa50f2-7cec-4664-a698-e65599ff117c" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueShouldBeAbleToEnqueueItems" />
+    </UnitTest>
+    <UnitTest name="NewQueueShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="5390761e-f4e7-72d0-1f79-0ff7571f7466">
+      <Execution id="1d50ee5c-6117-415f-8a1d-c0e91a36227e" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItemShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="9bf54e85-f8f9-f66b-8246-5c2b4fabe865">
+      <Execution id="c119fd34-ea50-46bc-92a7-db4d75e28c76" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItemShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="NewQueueRaisesExceptionOnDequeue" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="8b31410c-8da2-034c-fac4-c9abc6dc61ca">
+      <Execution id="189b0db1-73b1-4151-839f-fc121996ba9e" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueRaisesExceptionOnDequeue" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="3f350ca0-8d2b-6db1-3722-22f5a4805299">
+      <Execution id="09ef001f-43f8-43d9-a56b-1ae84ecb7573" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItemsShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="09095067-82d1-cf31-1174-ca4966a22b1f">
+      <Execution id="bdb9df72-70d5-4436-934e-82f6ebf51de0" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItemsShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="0af88539-60e8-7320-4393-62ec37fe399f">
+      <Execution id="15125713-d6c1-4bed-8f9b-aa93648f5b6f" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="da73b1bf-08c7-e690-3dc6-ed819864f63d">
+      <Execution id="d8695846-27e5-47c3-9225-423c8feae8f9" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="e454d995-e742-f709-6dc7-80d89e1f7424">
+      <Execution id="66536f87-f2c4-49a7-9559-761974ffe761" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5390761e-f4e7-72d0-1f79-0ff7571f7466" executionId="1d50ee5c-6117-415f-8a1d-c0e91a36227e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b31410c-8da2-034c-fac4-c9abc6dc61ca" executionId="189b0db1-73b1-4151-839f-fc121996ba9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b89d63c-02df-85c6-6cb4-2bf505946bc5" executionId="deaa50f2-7cec-4664-a698-e65599ff117c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bf54e85-f8f9-f66b-8246-5c2b4fabe865" executionId="c119fd34-ea50-46bc-92a7-db4d75e28c76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3083bc32-b243-52cb-86ac-afa7d1f702c6" executionId="c847d031-2498-4dc8-90d0-d38381881b65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f350ca0-8d2b-6db1-3722-22f5a4805299" executionId="09ef001f-43f8-43d9-a56b-1ae84ecb7573" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09095067-82d1-cf31-1174-ca4966a22b1f" executionId="bdb9df72-70d5-4436-934e-82f6ebf51de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a2cc7d0-9e4a-2aec-8855-f17571804236" executionId="6b95c211-5557-4f6e-a7f8-001001cfda42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0af88539-60e8-7320-4393-62ec37fe399f" executionId="15125713-d6c1-4bed-8f9b-aa93648f5b6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e454d995-e742-f709-6dc7-80d89e1f7424" executionId="66536f87-f2c4-49a7-9559-761974ffe761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da73b1bf-08c7-e690-3dc6-ed819864f63d" executionId="d8695846-27e5-47c3-9225-423c8feae8f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1d50ee5c-6117-415f-8a1d-c0e91a36227e" testId="5390761e-f4e7-72d0-1f79-0ff7571f7466" testName="NewQueueShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0157523" startTime="2010-11-08T16:57:50.7911392+01:00" endTime="2010-11-08T16:57:51.1191580+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d50ee5c-6117-415f-8a1d-c0e91a36227e">
+    </UnitTestResult>
+    <UnitTestResult executionId="189b0db1-73b1-4151-839f-fc121996ba9e" testId="8b31410c-8da2-034c-fac4-c9abc6dc61ca" testName="NewQueueRaisesExceptionOnDequeue" computerName="EXSL78007" duration="00:00:00.0006484" startTime="2010-11-08T16:57:51.1231582+01:00" endTime="2010-11-08T16:57:51.1291585+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="189b0db1-73b1-4151-839f-fc121996ba9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="deaa50f2-7cec-4664-a698-e65599ff117c" testId="1b89d63c-02df-85c6-6cb4-2bf505946bc5" testName="NewQueueShouldBeAbleToEnqueueItems" computerName="EXSL78007" duration="00:00:00.0004287" startTime="2010-11-08T16:57:51.1341588+01:00" endTime="2010-11-08T16:57:51.1401592+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="deaa50f2-7cec-4664-a698-e65599ff117c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c119fd34-ea50-46bc-92a7-db4d75e28c76" testId="9bf54e85-f8f9-f66b-8246-5c2b4fabe865" testName="AQueueWithOneItemShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0001983" startTime="2010-11-08T16:57:51.1451594+01:00" endTime="2010-11-08T16:57:51.1501597+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c119fd34-ea50-46bc-92a7-db4d75e28c76">
+    </UnitTestResult>
+    <UnitTestResult executionId="c847d031-2498-4dc8-90d0-d38381881b65" testId="3083bc32-b243-52cb-86ac-afa7d1f702c6" testName="AQueueWithOneItem_DequeueShouldReturnTheItem" computerName="EXSL78007" duration="00:00:00.0003186" startTime="2010-11-08T16:57:51.1551600+01:00" endTime="2010-11-08T16:57:51.1601603+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c847d031-2498-4dc8-90d0-d38381881b65">
+    </UnitTestResult>
+    <UnitTestResult executionId="09ef001f-43f8-43d9-a56b-1ae84ecb7573" testId="3f350ca0-8d2b-6db1-3722-22f5a4805299" testName="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0002475" startTime="2010-11-08T16:57:51.1651606+01:00" endTime="2010-11-08T16:57:51.1711609+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09ef001f-43f8-43d9-a56b-1ae84ecb7573">
+    </UnitTestResult>
+    <UnitTestResult executionId="bdb9df72-70d5-4436-934e-82f6ebf51de0" testId="09095067-82d1-cf31-1174-ca4966a22b1f" testName="AQueueWithTwoItemsShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0001966" startTime="2010-11-08T16:57:51.1771613+01:00" endTime="2010-11-08T16:57:51.1841617+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdb9df72-70d5-4436-934e-82f6ebf51de0">
+    </UnitTestResult>
+    <UnitTestResult executionId="6b95c211-5557-4f6e-a7f8-001001cfda42" testId="7a2cc7d0-9e4a-2aec-8855-f17571804236" testName="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0002434" startTime="2010-11-08T16:57:51.1891620+01:00" endTime="2010-11-08T16:57:51.1951623+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b95c211-5557-4f6e-a7f8-001001cfda42">
+    </UnitTestResult>
+    <UnitTestResult executionId="15125713-d6c1-4bed-8f9b-aa93648f5b6f" testId="0af88539-60e8-7320-4393-62ec37fe399f" testName="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" computerName="EXSL78007" duration="00:00:00.0003014" startTime="2010-11-08T16:57:51.2011627+01:00" endTime="2010-11-08T16:57:51.2071630+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15125713-d6c1-4bed-8f9b-aa93648f5b6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="66536f87-f2c4-49a7-9559-761974ffe761" testId="e454d995-e742-f709-6dc7-80d89e1f7424" testName="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" computerName="EXSL78007" duration="00:00:00.0003026" startTime="2010-11-08T16:57:51.2141634+01:00" endTime="2010-11-08T16:57:51.2201637+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66536f87-f2c4-49a7-9559-761974ffe761">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8695846-27e5-47c3-9225-423c8feae8f9" testId="da73b1bf-08c7-e690-3dc6-ed819864f63d" testName="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0182888" startTime="2010-11-08T16:57:51.2261641+01:00" endTime="2010-11-08T16:57:51.2501655+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8695846-27e5-47c3-9225-423c8feae8f9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at QueueBehavior.QueueTests.AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

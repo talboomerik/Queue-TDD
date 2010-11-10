@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="db33843a-f0c9-42f2-81a3-fa6c0979f7ff" name="talbaer@EXSL78007 2010-11-08 17:17:57" runUser="ICONOS\talbaer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="efabca74-4cef-4eff-90d1-fc170b2b93fe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="talbaer_EXSL78007 2010-11-08 17_17_57" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-08T17:17:57.6441672+01:00" queuing="2010-11-08T17:17:57.6901699+01:00" start="2010-11-08T17:17:57.6991704+01:00" finish="2010-11-08T17:17:58.1831981+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="5" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewQueueShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="5390761e-f4e7-72d0-1f79-0ff7571f7466">
+      <Execution id="4d994a63-9f57-40ff-b319-9041b55ac94e" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithThreeItem_SecondDequeueShouldReturnSecondItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="4eaf4d53-ea1c-bcae-4a59-a4ae2f9baeb2">
+      <Execution id="8077d10e-8766-405e-b0f2-daa458f402d5" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithThreeItem_SecondDequeueShouldReturnSecondItemEnqueued" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItemShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="9bf54e85-f8f9-f66b-8246-5c2b4fabe865">
+      <Execution id="8664892d-6667-4b06-8fa1-1a7441c42764" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItemShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="0af88539-60e8-7320-4393-62ec37fe399f">
+      <Execution id="c3ee2f9b-753e-433e-8dbc-6e9a341063f0" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="7a2cc7d0-9e4a-2aec-8855-f17571804236">
+      <Execution id="6d2d5fb3-0a41-4721-8df9-7eee2df596dd" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="NewQueueRaisesExceptionOnDequeue" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="8b31410c-8da2-034c-fac4-c9abc6dc61ca">
+      <Execution id="0a3af26e-5e84-4bcc-a7f3-da98ed0221f3" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueRaisesExceptionOnDequeue" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="3f350ca0-8d2b-6db1-3722-22f5a4805299">
+      <Execution id="6719f0e3-dff0-4102-b9ed-92903b883326" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="e454d995-e742-f709-6dc7-80d89e1f7424">
+      <Execution id="5e16fb9f-0c96-4d13-a9c6-d913ba8794d0" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" />
+    </UnitTest>
+    <UnitTest name="AQueueWithOneItem_DequeueShouldReturnTheItem" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="3083bc32-b243-52cb-86ac-afa7d1f702c6">
+      <Execution id="e430aa97-bf5d-455e-a474-1a990e5c19b6" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithOneItem_DequeueShouldReturnTheItem" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="da73b1bf-08c7-e690-3dc6-ed819864f63d">
+      <Execution id="0a3b4de1-5a83-4102-b6bf-1075300a7021" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" />
+    </UnitTest>
+    <UnitTest name="AQueueWithTwoItemsShouldNotBeEmpty" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="09095067-82d1-cf31-1174-ca4966a22b1f">
+      <Execution id="055dbc7b-08fb-41be-a778-0fc5d1668362" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithTwoItemsShouldNotBeEmpty" />
+    </UnitTest>
+    <UnitTest name="NewQueueShouldBeAbleToEnqueueItems" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="1b89d63c-02df-85c6-6cb4-2bf505946bc5">
+      <Execution id="8e6746ee-c35a-4411-b76e-d39f2fc77137" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewQueueShouldBeAbleToEnqueueItems" />
+    </UnitTest>
+    <UnitTest name="AQueueWithThreeItems_FirstDequeueShouldReturnFirstItemEnqueued" storage="c:\users\talbaer\documents\visual studio 2010\projects\queue\queue\bin\debug\queuebehavior.dll" id="39ba04e9-b01d-fea8-b034-51a216e301d0">
+      <Execution id="9f3f84d8-7cad-4e84-bd1f-a561806efa36" />
+      <TestMethod codeBase="C:/Users/talbaer/Documents/Visual Studio 2010/Projects/Queue/Queue/bin/Debug/QueueBehavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueBehavior.QueueTests, QueueBehavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AQueueWithThreeItems_FirstDequeueShouldReturnFirstItemEnqueued" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5390761e-f4e7-72d0-1f79-0ff7571f7466" executionId="4d994a63-9f57-40ff-b319-9041b55ac94e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b31410c-8da2-034c-fac4-c9abc6dc61ca" executionId="0a3af26e-5e84-4bcc-a7f3-da98ed0221f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b89d63c-02df-85c6-6cb4-2bf505946bc5" executionId="8e6746ee-c35a-4411-b76e-d39f2fc77137" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bf54e85-f8f9-f66b-8246-5c2b4fabe865" executionId="8664892d-6667-4b06-8fa1-1a7441c42764" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3083bc32-b243-52cb-86ac-afa7d1f702c6" executionId="e430aa97-bf5d-455e-a474-1a990e5c19b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f350ca0-8d2b-6db1-3722-22f5a4805299" executionId="6719f0e3-dff0-4102-b9ed-92903b883326" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09095067-82d1-cf31-1174-ca4966a22b1f" executionId="055dbc7b-08fb-41be-a778-0fc5d1668362" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a2cc7d0-9e4a-2aec-8855-f17571804236" executionId="6d2d5fb3-0a41-4721-8df9-7eee2df596dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0af88539-60e8-7320-4393-62ec37fe399f" executionId="c3ee2f9b-753e-433e-8dbc-6e9a341063f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e454d995-e742-f709-6dc7-80d89e1f7424" executionId="5e16fb9f-0c96-4d13-a9c6-d913ba8794d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da73b1bf-08c7-e690-3dc6-ed819864f63d" executionId="0a3b4de1-5a83-4102-b6bf-1075300a7021" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39ba04e9-b01d-fea8-b034-51a216e301d0" executionId="9f3f84d8-7cad-4e84-bd1f-a561806efa36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4eaf4d53-ea1c-bcae-4a59-a4ae2f9baeb2" executionId="8077d10e-8766-405e-b0f2-daa458f402d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4d994a63-9f57-40ff-b319-9041b55ac94e" testId="5390761e-f4e7-72d0-1f79-0ff7571f7466" testName="NewQueueShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0155669" startTime="2010-11-08T17:17:57.7051707+01:00" endTime="2010-11-08T17:17:58.0141884+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d994a63-9f57-40ff-b319-9041b55ac94e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a3af26e-5e84-4bcc-a7f3-da98ed0221f3" testId="8b31410c-8da2-034c-fac4-c9abc6dc61ca" testName="NewQueueRaisesExceptionOnDequeue" computerName="EXSL78007" duration="00:00:00.0007219" startTime="2010-11-08T17:17:58.0191887+01:00" endTime="2010-11-08T17:17:58.0261891+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a3af26e-5e84-4bcc-a7f3-da98ed0221f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e6746ee-c35a-4411-b76e-d39f2fc77137" testId="1b89d63c-02df-85c6-6cb4-2bf505946bc5" testName="NewQueueShouldBeAbleToEnqueueItems" computerName="EXSL78007" duration="00:00:00.0005353" startTime="2010-11-08T17:17:58.0301893+01:00" endTime="2010-11-08T17:17:58.0361897+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e6746ee-c35a-4411-b76e-d39f2fc77137">
+    </UnitTestResult>
+    <UnitTestResult executionId="8664892d-6667-4b06-8fa1-1a7441c42764" testId="9bf54e85-f8f9-f66b-8246-5c2b4fabe865" testName="AQueueWithOneItemShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0002055" startTime="2010-11-08T17:17:58.0401899+01:00" endTime="2010-11-08T17:17:58.0461902+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8664892d-6667-4b06-8fa1-1a7441c42764">
+    </UnitTestResult>
+    <UnitTestResult executionId="e430aa97-bf5d-455e-a474-1a990e5c19b6" testId="3083bc32-b243-52cb-86ac-afa7d1f702c6" testName="AQueueWithOneItem_DequeueShouldReturnTheItem" computerName="EXSL78007" duration="00:00:00.0192536" startTime="2010-11-08T17:17:58.0501905+01:00" endTime="2010-11-08T17:17:58.0751919+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e430aa97-bf5d-455e-a474-1a990e5c19b6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithOneItem_DequeueShouldReturnTheItem threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithOneItem_DequeueShouldReturnTheItem() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6719f0e3-dff0-4102-b9ed-92903b883326" testId="3f350ca0-8d2b-6db1-3722-22f5a4805299" testName="AQueueWithOneItem_AfterDequeueItShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0014841" startTime="2010-11-08T17:17:58.0801922+01:00" endTime="2010-11-08T17:17:58.0861925+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6719f0e3-dff0-4102-b9ed-92903b883326">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithOneItem_AfterDequeueItShouldBeEmpty threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithOneItem_AfterDequeueItShouldBeEmpty() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="055dbc7b-08fb-41be-a778-0fc5d1668362" testId="09095067-82d1-cf31-1174-ca4966a22b1f" testName="AQueueWithTwoItemsShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0002558" startTime="2010-11-08T17:17:58.0911928+01:00" endTime="2010-11-08T17:17:58.0961931+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="055dbc7b-08fb-41be-a778-0fc5d1668362">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d2d5fb3-0a41-4721-8df9-7eee2df596dd" testId="7a2cc7d0-9e4a-2aec-8855-f17571804236" testName="AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty" computerName="EXSL78007" duration="00:00:00.0014835" startTime="2010-11-08T17:17:58.1011934+01:00" endTime="2010-11-08T17:17:58.1081938+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d2d5fb3-0a41-4721-8df9-7eee2df596dd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithTwoItems_AfterFirstDequeue_ShouldNotBeEmpty() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3ee2f9b-753e-433e-8dbc-6e9a341063f0" testId="0af88539-60e8-7320-4393-62ec37fe399f" testName="AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued" computerName="EXSL78007" duration="00:00:00.0014788" startTime="2010-11-08T17:17:58.1121940+01:00" endTime="2010-11-08T17:17:58.1191944+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3ee2f9b-753e-433e-8dbc-6e9a341063f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithTwoItems_FirstDequeueShouldReturnFirstItemEnqueued() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e16fb9f-0c96-4d13-a9c6-d913ba8794d0" testId="e454d995-e742-f709-6dc7-80d89e1f7424" testName="AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued" computerName="EXSL78007" duration="00:00:00.0014906" startTime="2010-11-08T17:17:58.1241947+01:00" endTime="2010-11-08T17:17:58.1301950+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e16fb9f-0c96-4d13-a9c6-d913ba8794d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithTwoItems_SecondDequeueShouldReturnSecondItemEnqueued() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a3b4de1-5a83-4102-b6bf-1075300a7021" testId="da73b1bf-08c7-e690-3dc6-ed819864f63d" testName="AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty" computerName="EXSL78007" duration="00:00:00.0015048" startTime="2010-11-08T17:17:58.1351953+01:00" endTime="2010-11-08T17:17:58.1421957+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a3b4de1-5a83-4102-b6bf-1075300a7021">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithTwoItems_AfterSecondDequeue_ShouldBeEmpty() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 141
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f3f84d8-7cad-4e84-bd1f-a561806efa36" testId="39ba04e9-b01d-fea8-b034-51a216e301d0" testName="AQueueWithThreeItems_FirstDequeueShouldReturnFirstItemEnqueued" computerName="EXSL78007" duration="00:00:00.0015143" startTime="2010-11-08T17:17:58.1461960+01:00" endTime="2010-11-08T17:17:58.1531964+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f3f84d8-7cad-4e84-bd1f-a561806efa36">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithThreeItems_FirstDequeueShouldReturnFirstItemEnqueued threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithThreeItems_FirstDequeueShouldReturnFirstItemEnqueued() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8077d10e-8766-405e-b0f2-daa458f402d5" testId="4eaf4d53-ea1c-bcae-4a59-a4ae2f9baeb2" testName="AQueueWithThreeItem_SecondDequeueShouldReturnSecondItemEnqueued" computerName="EXSL78007" duration="00:00:00.0015273" startTime="2010-11-08T17:17:58.1581966+01:00" endTime="2010-11-08T17:17:58.1641970+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8077d10e-8766-405e-b0f2-daa458f402d5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueBehavior.QueueTests.AQueueWithThreeItem_SecondDequeueShouldReturnSecondItemEnqueued threw exception: 
+QueueBehavior.ActionNotAllowedException: This action is not allowed</Message>
+          <StackTrace>    at QueueBehavior.Queue.Dequeue() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\Queue.cs:line 30
+   at QueueBehavior.QueueTests.AQueueWithThreeItem_SecondDequeueShouldReturnSecondItemEnqueued() in C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\QueueTests.cs:line 163
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

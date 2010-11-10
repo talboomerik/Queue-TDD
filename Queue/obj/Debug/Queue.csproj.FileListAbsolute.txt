@@ -1,0 +1,5 @@
+C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\bin\Debug\QueueBehavior.dll
+C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\bin\Debug\QueueBehavior.pdb
+C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\obj\Debug\QueueBehavior.dll
+C:\Users\talbaer\Documents\Visual Studio 2010\Projects\Queue\Queue\obj\Debug\QueueBehavior.pdb
